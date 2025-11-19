@@ -21,3 +21,25 @@ python sim.py
 ```
 
 
+第一次加入仓库：
+```
+# some works should be done before clone repo
+# 把自己的 ssh 公钥添加到 github user config
+# 1. 生成公钥
+略
+# 2. 把公钥添加到 github 
+略
+
+git clone https://github.com/bot-learner/coal_yard_sim.git
+git remote add origin git@github.com:bot-learner/coal_yard_sim.git
+# 测试 ssh 能否连接到 github
+ssh -T git@github.com
+```
+
+
+向仓库 push 代码：
+```
+git add .
+git commit -m "some info you should write"
+git push -u origin main
+```
